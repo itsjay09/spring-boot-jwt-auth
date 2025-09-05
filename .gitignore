@@ -2,8 +2,3 @@
 !.gitignore
 !pom.xml
 !src/
-!README.md
-!LICENSE
-!mvnw
-!mvnw.cmd
-!.mvn/
