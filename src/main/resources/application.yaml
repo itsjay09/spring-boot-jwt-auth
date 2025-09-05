@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-boot-jwt-token
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jwt_pg
+    username: jwt_user
+    password: jwtpass123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+jwt:
+  secret: ixxYv7wJ/mRkxNO9JiuwCa3ABY+cGIGIzi9IoYNQDGQ=
+  expiration: 3600000
+

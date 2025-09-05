@@ -1,28 +1,9 @@
-# Maven
-/target/
-!.mvn/wrapper/maven-wrapper.jar
-
-# IDEs
-.idea/
-*.iml
-.project
-.classpath
-.settings/
-.vscode/
-
-# OS
-.DS_Store
-
-# Logs
-*.log
-
-# Java
-*.class
-
-# Sensitive configs (uncomment to commit intentionally)
-src/main/resources/application.yaml
-src/main/resources/application.properties
-
-# Test outputs
-surefire-reports/
-
+*
+!.gitignore
+!pom.xml
+!src/
+!README.md
+!LICENSE
+!mvnw
+!mvnw.cmd
+!.mvn/
